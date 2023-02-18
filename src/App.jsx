@@ -1,33 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import ImageJenny from "../public/img/chacalosaurio.jpeg";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className='App flex w-screen h-screen justify-center items-center flex-col gap-10'>
-      <div className=' flex justify-center'>
-        <a href='https://vitejs.dev' target='_blank'>
-          <img src='/vite.svg' className='logo' alt='Vite logo' />
-        </a>
-        <a href='https://reactjs.org' target='_blank'>
-          <img src={reactLogo} className='logo react' alt='React logo' />
-        </a>
+    <>
+      <div className='bg-zinc-800 text-white flex items-center'>
+        <div className='flex items-center justify-between w-full mx-8 pt-6'>
+          <img src={ImageJenny} alt='Jenny' className='rounded-full h-10 w-10' />
+          <h1 className='text-2xl font-bold'>Jenny</h1>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className='card'>
-        <button
-          className='flex justify-center items-center w-full'
-          onClick={() => setCount(count => count + 1)}
-        >
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code>
-        </p>
-      </div>
-      <p className='read-the-docs'>Click on the Vite and React logos to learn more</p>
-    </div>
+    </>
   );
 }
 
