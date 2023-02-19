@@ -13,7 +13,7 @@ The repository contains a simple project setup with the following components:
 To start using this template, simply clone the repository and install the dependencies:
 
 ```shell
-$ git clone https://github.com/NathanLazo/react-tailwind-vite.git
+$ git clone https://github.com/utch-team/react-tutorial.git
 $ cd react-tailwind-vite
 $ npm install
 ```
