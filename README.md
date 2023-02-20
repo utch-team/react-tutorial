@@ -14,7 +14,7 @@ To start using this template, simply clone the repository and install the depend
 
 ```shell
 $ git clone https://github.com/utch-team/react-tutorial.git
-$ cd react-tailwind-vite
+$ cd react-tutorial
 $ npm install
 ```
 Once the dependencies are installed, you can start the development server:
